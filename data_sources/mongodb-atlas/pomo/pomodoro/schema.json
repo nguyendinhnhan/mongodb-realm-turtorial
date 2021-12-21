@@ -33,9 +33,6 @@
     },
     "soundType": {
       "bsonType": "string"
-    },
-    "test1": {
-      "bsonType": "boolean"
     }
   },
   "required": ["_id", "_partition"],
