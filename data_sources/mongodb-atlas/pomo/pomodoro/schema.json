@@ -1,0 +1,43 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "name": {
+      "bsonType": "string"
+    },
+    "time": {
+      "bsonType": "int"
+    },
+    "shortBreak": {
+      "bsonType": "int"
+    },
+    "longBreak": {
+      "bsonType": "int"
+    },
+    "set": {
+      "bsonType": "int"
+    },
+    "color": {
+      "bsonType": "string"
+    },
+    "sound": {
+      "bsonType": "string"
+    },
+    "soundVolume": {
+      "bsonType": "string"
+    },
+    "soundType": {
+      "bsonType": "string"
+    },
+    "vibrate": {
+      "bsonType": "boolean"
+    }
+  },
+  "required": ["_id", "_partition"],
+  "title": "pomodoro"
+}
