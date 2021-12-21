@@ -34,7 +34,7 @@
     "soundType": {
       "bsonType": "string"
     },
-    "test": {
+    "test1": {
       "bsonType": "boolean"
     }
   },
